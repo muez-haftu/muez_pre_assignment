@@ -1,0 +1,133 @@
+            body {
+                background-color: #f4f4f4;
+                color: #555;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+            }
+            
+            .container {
+                width: 80%;
+                margin: auto;
+                overflow: hidden;
+            }
+            
+            .team {
+                text-align: center;
+                margin: 0px;
+                padding: 0;
+            }
+            
+            #nav-bar {
+                background-color: #6495ED;
+                color: #fff;
+            }
+            
+            #nav-bar ul {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                list-style: none;
+            }
+            
+            #nav-bar li {
+                display: inline;
+            }
+            
+            #nav-bar a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 18px;
+                padding-right: 200px;
+            }
+            
+            .image_grid {
+                /*height: 800px;
+                background-color: #000; */
+                margin-top: 0px;
+                display: flex;
+                flex-direction: row;
+                margin-left: 0px;
+            }
+            
+            .image_grid img {
+                width: 340px;
+                height: 220px;
+                margin-bottom: 10px;
+            }
+            
+            @media (max-width:800px) {
+                .image_grid {
+                    flex-direction: column;
+                }
+            }
+            
+            .box {
+                width: 340px;
+                height: 300px;
+                margin: 10px;
+                border: 1px solid #000000;
+                background-color: #6495ED;
+                color: azure;
+                /*  align-items: center;
+                justify-content: center;  */
+                text-align: center;
+            }
+            
+            .box h4,
+            .box h5,
+            .box h6 {
+                margin: 0px 0px 5px 0px;
+                padding: 0;
+            }
+            
+            .footer {
+                display: flex;
+                background-color: #6495ED;
+                color: #fff;
+            }
+            
+            .address {
+                width: 40%;
+                margin-top: 40px;
+                box-sizing: border-box;
+            }
+            
+            .address ul {
+                list-style: none;
+            }
+            
+            .address li {
+                display: inline;
+                margin-right: 10px;
+            }
+            
+            .address a {
+                text-decoration: none;
+                color: #fff;
+            }
+            
+            .social_media {
+                width: 25%;
+                margin-top: 20px;
+                box-sizing: border-box;
+            }
+            
+            .about_company {
+                width: 35%;
+                text-align: center;
+                box-sizing: border-box;
+            }
+            
+            .about_company h2 {
+                margin-bottom: 5px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .media_icons {
+                margin-top: 0px;
+                margin-bottom: 20px;
+            }
+            
+            .about_company p {
+                margin-bottom: 5px;
+                padding-bottom: 0px;
+            }
